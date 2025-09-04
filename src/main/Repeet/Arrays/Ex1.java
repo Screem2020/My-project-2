@@ -14,15 +14,11 @@ public class Ex1 {
         int[] arr = new int[5];
         System.out.println("////////////////////////////");
         for (int i = 0; i < arr.length; i++) {
-<<<<<<< HEAD
-             arr[i] = new Random().nextInt(-100,100);
-=======
-            arr[i] = new Random().nextInt(-100,100);
->>>>>>> refs/remotes/origin/master
+            arr[i] = new Random().nextInt(-100, 100);
             System.out.println(arr[i]);
             if (arr[i] > numMax) {
                 numMax = arr[i];
-            } else if(arr[i] < numMin) {
+            } else if (arr[i] < numMin) {
                 numMin = arr[i];
             }
         }
