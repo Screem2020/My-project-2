@@ -1,8 +1,5 @@
 package Arrays;
 
-<<<<<<< HEAD
-public class Ex2 {
-=======
 import java.util.Random;
 
 public class Ex2 {
@@ -21,8 +18,6 @@ public class Ex2 {
                 index++;
             }
             if (index == 3) System.out.println("Last minimal num = " + arr[i]);
-            }
+        }
     }
-
->>>>>>> refs/remotes/origin/master
 }
