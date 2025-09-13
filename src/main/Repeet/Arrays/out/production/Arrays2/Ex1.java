@@ -1,3 +1,5 @@
+package Arrays.out.production.Arrays2;
+
 import java.util.Arrays;
 
 public class Ex1 {
